@@ -1,0 +1,25 @@
+.bg-custom {
+  background-color: hsl(14, 88%, 55%);
+}
+
+header nav a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.search-area {
+  height: 600px;
+  background-image: url(/res/Images/background-main-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+main {
+  color: white !important;
+}
+
+.search-form {
+  background-color: #d3d3d3;
+  border-radius: 3%;
+}
