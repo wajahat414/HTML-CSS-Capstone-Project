@@ -2,6 +2,10 @@
   background-color: hsl(14, 88%, 55%);
 }
 
+body {
+  font-family: 'Heebo', sans-serif;
+}
+
 header nav a {
   color: white !important;
   text-decoration: none;
@@ -15,11 +19,104 @@ header nav a {
   background-size: 100% 100%;
 }
 
-main {
+main .search-area {
   color: white !important;
 }
 
 .search-form {
   background-color: #d3d3d3;
   border-radius: 3%;
+}
+
+.info-item {
+  background-color: #e17e65;
+}
+
+.info-item2 {
+  background-color: #98a4a5;
+}
+
+.info-item3 {
+  background-color: #509bd7;
+}
+
+.text-brown {
+  color: #e17e65;
+}
+
+.text-silver {
+  color: #98a4a5;
+}
+
+.text-blue {
+  color: #509bd7;
+}
+
+footer ul {
+  list-style: none;
+  font-size: 0.35em;
+  padding: 0;
+}
+
+footer ul li a {
+  color: white;
+  font-weight: bold;
+}
+
+.top-div {
+  height: 200px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-bar {
+  margin-top: 20px;
+}
+
+.border-li {
+  border-right: none;
+  border-left: none;
+  border-top: 1px solid #6c757d;
+  border-bottom: 1px solid #6c757d;
+}
+
+.round-border {
+  border: 1px solid red;
+  border-radius: 50%;
+}
+
+.relative-position {
+  position: relative;
+  bottom: 50.7px;
+  left: 44%;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: black;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+
+.pl-40 {
+  padding-left: 40px;
+}
+
+.svg-relative-pos {
+  position: relative;
+  left: 7px;
+  top: 7px;
+}
+
+.w-33 {
+  width: 33.3333%;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.font-s-50 {
+  font-size: 0.5em !important;
+  padding: 0 !important;
 }
