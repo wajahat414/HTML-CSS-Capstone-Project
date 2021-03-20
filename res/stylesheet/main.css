@@ -18,7 +18,7 @@ header nav a {
 
 .search-area {
   height: 600px;
-  background-image: url(/res/Images/background-main-image.jpg);
+  background-image: url(../Images/background-main-image.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
