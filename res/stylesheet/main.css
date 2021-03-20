@@ -197,4 +197,13 @@ footer ul li a {
   .form-button {
     background-color: #d35649;
   }
+
+  .steps-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  footer {
+    font-size: 1.5em;
+  }
 }
